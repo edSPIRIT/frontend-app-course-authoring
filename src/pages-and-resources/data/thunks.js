@@ -24,6 +24,7 @@ const COURSE_APPS_ORDER = [
   'live',
   'textbooks',
   'custom_pages',
+  'open_responses',
 ];
 
 /* eslint-disable import/prefer-default-export */
