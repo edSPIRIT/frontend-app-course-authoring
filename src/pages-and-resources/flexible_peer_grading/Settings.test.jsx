@@ -1,5 +1,5 @@
 import { shallow } from 'enzyme';
-import OpenResponsesSettings from './Settings';
+import FlexiblePeerGradingSettings from './Settings';
 
 jest.mock('@edx/frontend-platform/i18n', () => ({
   ...jest.requireActual('@edx/frontend-platform/i18n'), // use actual for all non-hook parts
@@ -15,9 +15,9 @@ const props = {
   },
 };
 
-describe('OpenResponsesSettings', () => {
+describe('FlexiblePeerGradingSettings', () => {
   it('should render', () => {
-    const wrapper = shallow(<OpenResponsesSettings {...props} />);
+    const wrapper = shallow(<FlexiblePeerGradingSettings {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

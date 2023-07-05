@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OpenResponsesSettings should render 1`] = `
+exports[`FlexiblePeerGradingSettings should render 1`] = `
 <AppSettingsModal
-  appId="open_responses"
+  appId="flexible_peer_grading"
   enableAppHelp="Flexible peer grading for all open response assessments in the course."
   enableAppLabel="Flex Peer Grading"
   learnMoreText="Learn more about flexible peer grading"
   onClose={[MockFunction onClose]}
-  title="Configure open response assessment"
+  title="Configure ORA Flexible Peer Grading"
 />
 `;

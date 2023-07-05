@@ -6,9 +6,9 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import AppSettingsModal from '../app-settings-modal/AppSettingsModal';
 import messages from './messages';
 
-const OpenResponsesSettings = ({ intl, onClose }) => (
+const FlexiblePeerGradingSettings = ({ intl, onClose }) => (
   <AppSettingsModal
-    appId="open_responses"
+    appId="flexible_peer_grading"
     title={intl.formatMessage(messages.heading)}
     enableAppHelp={intl.formatMessage(messages.enableFlexPeerGradeHelp)}
     enableAppLabel={intl.formatMessage(messages.enableFlexPeerGradeLabel)}
@@ -17,9 +17,9 @@ const OpenResponsesSettings = ({ intl, onClose }) => (
   />
 );
 
-OpenResponsesSettings.propTypes = {
+FlexiblePeerGradingSettings.propTypes = {
   intl: intlShape.isRequired,
   onClose: PropTypes.func.isRequired,
 };
 
-export default injectIntl(OpenResponsesSettings);
+export default injectIntl(FlexiblePeerGradingSettings);

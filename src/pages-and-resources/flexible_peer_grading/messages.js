@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.ora.heading',
-    defaultMessage: 'Configure open response assessment',
+    defaultMessage: 'Configure ORA Flexible Peer Grading',
   },
   enableFlexPeerGradeLabel: {
     id: 'course-authoring.pages-resources.ora.flex-peer-grading.label',
