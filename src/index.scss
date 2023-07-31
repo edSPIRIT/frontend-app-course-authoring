@@ -8,3 +8,14 @@
 
 @import "proctored-exam-settings/proctoredExamSettings";
 @import "pages-and-resources/discussions/app-list/AppList";
+
+.lang_fa {
+  * {
+    font-family: IRANSans, FontAwesome, sans-serif !important ;
+  }
+}
+.lang_ar {
+  * {
+    font-family: NotoSansArabic, FontAwesome, sans-serif !important ;
+  }
+}
