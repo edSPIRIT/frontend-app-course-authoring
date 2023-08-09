@@ -4,8 +4,11 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { getConfig } from '@edx/frontend-platform';
 
 import messages from './messages';
+import useSetFont from './useSetFont';
 
-const Head = ({ intl }) => (
+const Head = ({ intl }) => {
+  useSetFont();
+return (
   <Helmet>
     <title>
       {intl.formatMessage(messages['course-authoring.page.title'], { siteName: getConfig().SITE_NAME })}
@@ -13,6 +16,7 @@ const Head = ({ intl }) => (
     <link rel="shortcut icon" href={getConfig().FAVICON_URL} type="image/x-icon" />
   </Helmet>
 );
+};
 
 Head.propTypes = {
   intl: intlShape.isRequired,
