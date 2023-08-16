@@ -37,7 +37,7 @@
     "@edx/frontend-component-footer": "https://github.com/Edspirit/frontend-component-footer#v12.1.2",
     "@edx/frontend-build": "^11.0.0",
     "@edx/frontend-lib-content-components": "^1.43.0",
-    "@edx/frontend-platform": "2.5.1",
+    "@edx/frontend-platform": "^4.2.0",
     "@edx/paragon": "20.6.1",
     "@fortawesome/fontawesome-svg-core": "1.2.28",
     "@fortawesome/free-brands-svg-icons": "5.11.2",
