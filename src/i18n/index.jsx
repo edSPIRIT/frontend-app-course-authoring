@@ -15,7 +15,7 @@ import frCAMessages from './messages/fr_CA.json';
 const messages = {
   ar: arMessages,
   'es-419': es419Messages,
-  fa: faIRMessages,
+  'fa-ir': faIRMessages,
   fr: frMessages,
   'zh-cn': zhcnMessages,
   pt: ptMessages,
