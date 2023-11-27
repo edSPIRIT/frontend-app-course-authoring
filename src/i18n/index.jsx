@@ -18,7 +18,7 @@ import dedeMessages from './messages/de_DE.json';
 const messages = {
   ar: arMessages,
   'es-419': es419Messages,
-  'fa-ir': faIRMessages,
+  fa: faIRMessages,
   fr: frMessages,
   'zh-cn': zhcnMessages,
   pt: ptMessages,
