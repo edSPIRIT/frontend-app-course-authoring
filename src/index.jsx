@@ -19,19 +19,11 @@ import './index.scss';
 import CourseAuthoringRoutes from './CourseAuthoringRoutes';
 import Head from './head/Head';
 
+import REACT_QUERY_CONSTANTS from './constants/react-query-constants';
+
 const queryClient = new QueryClient({
   defaultOptions: {
-    queries: {
-      // Set staleTime to 5 minutes
-      staleTime: 5 * 60 * 1000,
-      // Set cacheTime to 60 minutes
-      cacheTime: 60 * 60 * 1000,
-      // Set the retry count for queries here
-      retry: 1, // Set the retry count for queries here
-    },
-    mutations: {
-      retry: 1, // Set the retry count for mutations here
-    },
+    ...REACT_QUERY_CONSTANTS,
   },
 });
 

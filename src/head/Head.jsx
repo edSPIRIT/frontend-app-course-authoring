@@ -12,11 +12,12 @@ const Head = ({ intl }) => {
   const {
     favicon,
     loading: isGetConfigLoading,
+    platformName,
   } = useGetConfig();
 return (
   <Helmet>
     <title>
-      {intl.formatMessage(messages['course-authoring.page.title'], { siteName: getConfig().SITE_NAME })}
+      {intl.formatMessage(messages['course-authoring.page.title'], { siteName: platformName || getConfig().SITE_NAME })}
     </title>
     {!isGetConfigLoading && <link rel="shortcut icon" href={favicon} type="image/x-icon" />}
   </Helmet>
