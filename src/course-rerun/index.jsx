@@ -11,7 +11,7 @@ import {
 import { history } from '@edx/frontend-platform';
 import { StudioFooter } from '@edx/frontend-component-footer';
 
-import Header from '../header';
+import Header from '@edx/frontend-component-header';
 import Loading from '../generic/Loading';
 import { getLoadingStatuses } from '../generic/data/selectors';
 import InternetConnectionAlert from '../generic/internet-connection-alert';
@@ -41,7 +41,7 @@ const CourseRerun = ({ courseId }) => {
 
   return (
     <>
-      <Header isHiddenMainMenu />
+      <Header mfeTitle="course-authoring.page.title" />
       <Container size="xl" className="small p-4 mt-3">
         <section className="mb-4">
           <article>
