@@ -92,6 +92,7 @@ initialize({
         BBB_LEARN_MORE_URL: process.env.BBB_LEARN_MORE_URL || '',
         STUDIO_BASE_URL: process.env.STUDIO_BASE_URL || null,
         STUDIO_SHORT_NAME: process.env.STUDIO_SHORT_NAME || null,
+        AC_INSTANCE_CONFIG_API_URL: process.env.AC_INSTANCE_CONFIG_API_URL,
       }, 'CourseAuthoringConfig');
     },
   },

@@ -10,9 +10,9 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { StudioFooter } from '@edx/frontend-component-footer';
 import { getConfig } from '@edx/frontend-platform';
 
+import Header from '@edx/frontend-component-header';
 import Loading from '../generic/Loading';
 import InternetConnectionAlert from '../generic/internet-connection-alert';
-import Header from '../header';
 import SubHeader from '../generic/sub-header/SubHeader';
 import HomeSidebar from './home-sidebar';
 import TabsSection from './tabs-section';
@@ -95,7 +95,7 @@ const StudioHome = ({ intl }) => {
 
   return (
     <>
-      <Header isHiddenMainMenu />
+      <Header mfeTitle="course-authoring.page.title" />
       <Container size="xl" className="p-4 mt-3">
         <section className="mb-4">
           <article className="studio-home-sub-header">
