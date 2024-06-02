@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@edx/brand": "https://github.com/Edspirit/brand-openedx",
-    "@edx/frontend-component-footer": "https://github.com/Edspirit/frontend-component-footer#v12.4.0",
+    "@edx/frontend-component-footer": "https://github.com/Edspirit/frontend-component-footer#v12.4.1",
     "@edx/frontend-component-header": "https://github.com/Edspirit/frontend-component-header#v4.5.0",
     "@edx/frontend-enterprise-hotjar": "^1.2.1",
     "@edx/frontend-lib-content-components": "^1.174.0",
