@@ -45,6 +45,7 @@ const Header = ({
           isHiddenMainMenu,
           mainMenuDropdowns,
           outlineLink,
+          mfeTitle: 'course-authoring.page.title',
         }}
       />
     </div>
