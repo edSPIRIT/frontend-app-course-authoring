@@ -6,7 +6,7 @@ import {
   useLocation,
 } from 'react-router-dom';
 import Footer from '@edx/frontend-component-footer';
-import Header from '@edx/frontend-component-header';
+import Header from './header';
 import { fetchCourseDetail } from './data/thunks';
 import { useModel } from './generic/model-store';
 import PermissionDeniedAlert from './generic/PermissionDeniedAlert';
@@ -14,16 +14,27 @@ import { getCourseAppsApiStatus } from './pages-and-resources/data/selectors';
 import { RequestStatus } from './data/constants';
 import Loading from './generic/Loading';
 
-const AppHeader = () => (
-  <Header mfeTitle="course-authoring.page.title" />
+const AppHeader = ({
+  courseNumber, courseOrg, courseTitle, courseId,
+}) => (
+  <Header
+    courseNumber={courseNumber}
+    courseOrg={courseOrg}
+    courseTitle={courseTitle}
+    courseId={courseId}
+  />
 );
 
 AppHeader.propTypes = {
-
+  courseId: PropTypes.string.isRequired,
+  courseNumber: PropTypes.string,
+  courseOrg: PropTypes.string,
+  courseTitle: PropTypes.string.isRequired,
 };
 
 AppHeader.defaultProps = {
-
+  courseNumber: null,
+  courseOrg: null,
 };
 
 const CourseAuthoringPage = ({ courseId, children }) => {

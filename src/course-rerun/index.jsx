@@ -9,7 +9,7 @@ import {
   Button,
 } from '@edx/paragon';
 import { history } from '@edx/frontend-platform';
-import { StudioFooter } from '@edx/frontend-component-footer';
+import Footer from '@edx/frontend-component-footer';
 
 import Header from '@edx/frontend-component-header';
 import Loading from '../generic/Loading';
@@ -87,7 +87,7 @@ const CourseRerun = ({ courseId }) => {
           isQueryPending={savingStatus === RequestStatus.PENDING}
         />
       </div>
-      <StudioFooter />
+      <Footer />
     </>
   );
 };
