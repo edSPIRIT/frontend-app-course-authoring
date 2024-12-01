@@ -21,7 +21,6 @@ import messages from './i18n';
 
 import initializeStore from './store';
 import CourseAuthoringRoutes from './CourseAuthoringRoutes';
-import Head from './head/Head';
 import { StudioHome } from './studio-home';
 import CourseRerun from './course-rerun';
 import { TaxonomyLayout, TaxonomyDetailPage, TaxonomyListPage } from './taxonomy';
@@ -81,7 +80,6 @@ const App = () => {
   return (
     <AppProvider store={initializeStore()} wrapWithRouter={false}>
       <QueryClientProvider client={queryClient}>
-        <Head />
         <RouterProvider router={router} />
       </QueryClientProvider>
     </AppProvider>

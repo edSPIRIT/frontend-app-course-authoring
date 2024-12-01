@@ -52,6 +52,7 @@ const Header = ({
         mainMenuDropdowns={mainMenuDropdowns}
         outlineLink={outlineLink}
         searchButtonAction={meiliSearchEnabled && openSearchModal}
+        mfeTitle="course-authoring.page.title"
       />
       { meiliSearchEnabled && (
         <SearchModal

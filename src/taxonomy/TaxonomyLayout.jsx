@@ -1,6 +1,6 @@
 // @ts-check
 import React, { useMemo, useState } from 'react';
-import { StudioFooter } from '@edx/frontend-component-footer';
+import Footer from '@edx/frontend-component-footer';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { Outlet, ScrollRestoration } from 'react-router-dom';
 import { Toast } from '@openedx/paragon';
@@ -36,7 +36,7 @@ const TaxonomyLayout = () => {
           />
         )}
         <Outlet />
-        <StudioFooter />
+        <Footer />
         {toastMessage && (
           <Toast
             show
