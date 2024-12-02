@@ -9,7 +9,7 @@ import {
 } from '@openedx/paragon';
 import { Add as AddIcon, Error } from '@openedx/paragon/icons';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
-import { StudioFooter } from '@edx/frontend-component-footer';
+import Footer from '@edx/frontend-component-footer';
 import { getConfig } from '@edx/frontend-platform';
 
 import Loading from '../generic/Loading';
@@ -177,7 +177,7 @@ const StudioHome = ({ intl }) => {
           isQueryPending={anyQueryIsPending}
         />
       </div>
-      <StudioFooter />
+      <Footer />
     </>
   );
 };
