@@ -1,18 +1,22 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
-import { getConfig } from '@edx/frontend-platform';
+import useGetConfig from '../hooks/useGetConfig';
 
 import messages from './messages';
 
-const Head = ({ intl }) => (
-  <Helmet>
-    <title>
-      {intl.formatMessage(messages['course-authoring.page.title'], { siteName: getConfig().SITE_NAME })}
-    </title>
-    <link rel="shortcut icon" href={getConfig().FAVICON_URL} type="image/x-icon" />
-  </Helmet>
-);
+const Head = ({ intl }) => {
+  const { platformName, favicon } = useGetConfig();
+
+  return (
+    <Helmet>
+      <title>
+        {intl.formatMessage(messages['course-authoring.page.title'], { siteName: platformName })}
+      </title>
+      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+    </Helmet>
+  );
+};
 
 Head.propTypes = {
   intl: intlShape.isRequired,
