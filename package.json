@@ -43,7 +43,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@edx/brand": "https://github.com/Edspirit/brand-openedx#indigo-1.4.9",
     "@edx/frontend-component-footer": "https://github.com/Edspirit/frontend-component-footer#v14.0.11",
-    "@edx/frontend-component-header": "https://github.com/Edspirit/frontend-component-header#v5.7.5",
+    "@edx/frontend-component-header": "https://github.com/Edspirit/frontend-component-header#v5.7.6",
     "@edx/frontend-component-ai-translations": "^2.0.0",
     "@edx/frontend-enterprise-hotjar": "^2.0.0",
     "@edx/frontend-lib-content-components": "2.5.3",
