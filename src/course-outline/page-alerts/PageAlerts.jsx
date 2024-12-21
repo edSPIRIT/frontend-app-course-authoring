@@ -399,7 +399,6 @@ const PageAlerts = ({
   return (
     <>
       {configurationErrors()}
-      {discussionNotification()}
       {deprecationWarning()}
       {proctoringAlerts()}
       <ErrorAlert hideHeading isError={savingStatus === RequestStatus.FAILED}>
