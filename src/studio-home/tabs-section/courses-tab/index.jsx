@@ -24,6 +24,7 @@ import ProcessingCourses from '../../processing-courses';
 import { LoadingSpinner } from '../../../generic/Loading';
 import AlertMessage from '../../../generic/alert-message';
 import messages from '../messages';
+import sequenceMessages from '../../../course-unit/course-sequence/messages';
 import './index.scss';
 
 const CoursesTab = ({
@@ -161,6 +162,10 @@ const CoursesTab = ({
                 pageCount={numPages}
                 currentPage={currentPage}
                 onPageSelect={handlePageSelected}
+                buttonLabels={{
+                  previous: intl.formatMessage(sequenceMessages.prevBtnText),
+                  next: intl.formatMessage(sequenceMessages.nextBtnText),
+                }}
               />
             )}
           </>
