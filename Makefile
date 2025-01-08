@@ -48,6 +48,25 @@ pull_translations:
 		fi \
 	done
 
+	# Add custom translations from our translation files
+	if [ -f "src/i18n/messages/frontend-app-course-authoring/fa_IR.json" ]; then \
+		sed -i -e '$$s/}$$/,/' src/i18n/messages/frontend-app-course-authoring/fa_IR.json && \
+		tail -n +2 src/i18n/translations/fa.json | head -n -1 >> src/i18n/messages/frontend-app-course-authoring/fa_IR.json && \
+		echo "}" >> src/i18n/messages/frontend-app-course-authoring/fa_IR.json; \
+	fi
+
+	if [ -f "src/i18n/messages/frontend-app-course-authoring/fa.json" ]; then \
+		sed -i -e '$$s/}$$/,/' src/i18n/messages/frontend-app-course-authoring/fa.json && \
+		tail -n +2 src/i18n/translations/fa.json | head -n -1 >> src/i18n/messages/frontend-app-course-authoring/fa.json && \
+		echo "}" >> src/i18n/messages/frontend-app-course-authoring/fa.json; \
+	fi
+
+	if [ -f "src/i18n/messages/frontend-app-course-authoring/ar.json" ]; then \
+		sed -i -e '$$s/}$$/,/' src/i18n/messages/frontend-app-course-authoring/ar.json && \
+		tail -n +2 src/i18n/translations/ar.json | head -n -1 >> src/i18n/messages/frontend-app-course-authoring/ar.json && \
+		echo "}" >> src/i18n/messages/frontend-app-course-authoring/ar.json; \
+	fi
+
 	# Update index.js files to include fa_IR
 	for index_file in src/i18n/messages/*/index.js; do \
 		if [ -f "$${index_file%/*}/fa_IR.json" ]; then \

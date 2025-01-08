@@ -31,6 +31,19 @@ const PageCard = ({
 
   const SettingButton = settingButton || <PageSettingButton {...page} />;
 
+  // Get translated title and description based on page ID
+  const getTranslatedContent = (pageId) => {
+    const titleMessageId = `${pageId}Title`;
+    const descriptionMessageId = `${pageId}Description`;
+
+    return {
+      title: messages[titleMessageId] ? formatMessage(messages[titleMessageId]) : page.name,
+      description: messages[descriptionMessageId] ? formatMessage(messages[descriptionMessageId]) : page.description,
+    };
+  };
+
+  const translatedContent = getTranslatedContent(page.id);
+
   return (
     <Card
       className={classNames('shadow justify-content-between', {
@@ -39,7 +52,7 @@ const PageCard = ({
       })}
     >
       <Card.Header
-        title={page.name}
+        title={translatedContent.title}
         subtitle={page.enabled && (
           <Badge variant="success" className="mt-1">
             {formatMessage(messages.enabled)}
@@ -50,7 +63,7 @@ const PageCard = ({
       />
       <Card.Body>
         <Card.Section>
-          {page.description}
+          {translatedContent.description}
         </Card.Section>
       </Card.Body>
     </Card>
