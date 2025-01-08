@@ -121,6 +121,18 @@ const messages = defineMessages({
     defaultMessage: 'Enable learners to access, and collaborate on course-related information.',
     description: 'Description of wiki feature',
   },
+
+  // Teams
+  teamsTitle: {
+    id: 'course.pages.teams.title',
+    defaultMessage: 'Teams',
+    description: 'Title for teams feature',
+  },
+  teamsDescription: {
+    id: 'course.pages.teams.description',
+    defaultMessage: 'Leverage teams to allow learners to connect by topic of interest.',
+    description: 'Description of teams feature',
+  },
 });
 
 export default messages;
