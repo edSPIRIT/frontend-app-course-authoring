@@ -32,6 +32,7 @@ import { getFileSizeToClosestByte } from '../../utils';
 import FileThumbnail from './FileThumbnail';
 import FileInfoModalSidebar from './FileInfoModalSidebar';
 import FileValidationModal from './FileValidationModal';
+import SearchFilter from '../generic/table-components/SearchFilter';
 
 const FilesPage = ({
   courseId,
@@ -133,8 +134,9 @@ const FilesPage = ({
   const tableColumns = [
     { ...thumbnailColumn },
     {
-      Header: 'File name',
+      Header: intl.formatMessage(messages.searchPlaceholder),
       accessor: 'displayName',
+      Filter: SearchFilter,
     },
     { ...fileSizeColumn },
     {

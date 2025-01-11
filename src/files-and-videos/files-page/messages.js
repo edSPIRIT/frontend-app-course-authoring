@@ -120,6 +120,11 @@ const messages = defineMessages({
       in your course and signed in to access the file.`,
     description: 'Tooltip message for the lock icon in the table view of files',
   },
+  searchPlaceholder: {
+    id: 'pgn.DataTable.SearchBox.searchPlaceholder',
+    defaultMessage: 'Search file names',
+    description: 'Placeholder text for the file search input',
+  },
 });
 
 export default messages;
