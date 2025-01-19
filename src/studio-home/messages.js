@@ -69,6 +69,10 @@ const messages = defineMessages({
     id: 'course-authoring.studio-home.organization.input.no-options',
     defaultMessage: 'No options',
   },
+  searchPlaceholder: {
+    id: 'pgn.DataTable.SearchBox.searchPlaceholder',
+    defaultMessage: 'Search',
+  },
 });
 
 export default messages;

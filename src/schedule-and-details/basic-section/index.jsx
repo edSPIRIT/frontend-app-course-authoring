@@ -42,14 +42,14 @@ const BasicSection = ({
     },
   );
 
-  const promotionTitle = (
-    <FormattedMessage
-      id="course-authoring.schedule.basic.promotion.title"
-      defaultMessage="Course summary page {smallText}"
-      values={{
-        smallText: <small>(for student enrollment and access)</small>,
-      }}
-    />
+  const promotionTitle = intl.formatMessage(
+    {
+      id: 'course-authoring.schedule.basic.promotion.title',
+      defaultMessage: 'Course summary page {smallText}',
+    },
+    {
+      smallText: intl.formatMessage(messages.promotionSmallText),
+    },
   );
 
   const courseBasicInfo = [

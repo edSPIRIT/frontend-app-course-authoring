@@ -112,8 +112,16 @@
   "authoring.pagesAndResources.teams.deleteGroup.body": "edX توصیه می‌کند که پس از شروع دوره، گروه‌ها را حذف نکنید. گروه شما دیگر در LMS قابل مشاهده نخواهد بود و یادگیرندگان نمی‌توانند از تیم‌های مرتبط با آن خارج شوند. لطفاً قبل از حذف گروه مربوطه، یادگیرندگان را از تیم‌ها حذف کنید.",
   "authoring.pagesAndResources.teams.enableGroups.error.noGroupsFound.title": "هیچ گروهی یافت نشد",
   "authoring.pagesAndResources.teams.enableGroups.error.noGroupsFound.message": "برای فعال‌سازی تیم‌ها، یک یا چند گروه اضافه کنید.",
-  "pgn.DataTable.SearchBox.searchPlaceholder": "جستجوی نام فایل",
+  "pgn.DataTable.SearchBox.searchPlaceholder": "جستجو",
   "course-authoring.files-and-videos.file-info.activeCheckbox.label": "فعال",
   "course-authoring.files-and-videos.file-info.inactiveCheckbox.label": "غیر فعال",
-  "course-authoring.course-outline.card.menu.copy": "کپی به کلیپ‌بورد"
+  "course-authoring.course-outline.card.menu.copy": "کپی به کلیپ‌بورد",
+  "course-authoring.files-and-uploads..deleteConfirmation.message": "{fileNumber, plural, one {{fileType} زیر} other {{fileType}های زیر}} در محتوای دوره استفاده شده است. قبل از حذف، به‌روزرسانی محتوا را در نظر بگیرید.",
+  "pgn.Dropzone.DefaultContent.label": "فایل خود را اینجا بکشید و رها کنید یا برای بارگذاری کلیک کنید.",
+  "course-authoring.schedule.basic.promotion.smallText": "(برای ثبت‌نام و دسترسی دانشجویان)",
+  "Deleting": "در حال حذف",
+  "Processing": "در حال پردازش",
+  "course-authoring.content-tags-drawer.empty": "برای استفاده از برچسب‌ها، لطفاً {link} یا با مدیر خود تماس بگیرید.",
+  "course-authoring.content-tags-drawer.empty-link": "یک طبقه‌بندی را فعال کنید",
+  "course-authoring.course-outline.header-navigations.button.expand-all": "باز کردن همه"
 } 

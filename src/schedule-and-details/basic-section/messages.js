@@ -37,6 +37,10 @@ const messages = defineMessages({
     id: 'course-authoring.schedule.basic.promotion.button',
     defaultMessage: 'Invite your students',
   },
+  promotionSmallText: {
+    id: 'course-authoring.schedule.basic.promotion.smallText',
+    defaultMessage: '(for student enrollment and access)',
+  },
 });
 
 export default messages;
