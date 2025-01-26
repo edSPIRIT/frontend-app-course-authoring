@@ -123,5 +123,22 @@
   "processing": "معالجة",
   "course-authoring.content-tags-drawer.empty": "لاستخدام العلامات، يرجى {link} أو الاتصال بالمسؤول.",
   "course-authoring.content-tags-drawer.empty-link": "تمكين تصنيف",
-  "course-authoring.course-outline.header-navigations.button.expand-all": "توسيع الكل"
+  "course-authoring.course-outline.header-navigations.button.expand-all": "توسيع الكل",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "توسيع الكل",
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "تم تحديد الكل {numSelectedRows}",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "مسح التحديد",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "تحديد الكل {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "تم تحديد {numSelectedRows}",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "تم تحديد {numSelectedRows} ({numSelectedRowsOnPage} معروض أدناه)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "طي الكل",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "مسح الفلاتر",
+  "pgn.DataTable.RowStatus.statusText": "يعرض {pageSize} من {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "الفلاتر",
+  "pgn.Dropzone.DefaultContent.fileSizeBetween": "بين {sizeMin} و {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMax": "الحد الأقصى {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMin": "الحد الأدنى {sizeMin}",
+  "pgn.Dropzone.DefaultContent.fileTypeRestriction": "تحميل {count, plural, one {{firstPart} ملفات} other {{firstPart} أو {secondPart} ملفات}}",
+  "pgn.Dropzone.DefaultContent.label": "اسحب وأفلت الملف هنا أو انقر للتحميل.",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "إلغاء",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "جاري تحميل {filename}."
 } 

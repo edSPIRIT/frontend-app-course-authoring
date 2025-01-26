@@ -123,5 +123,21 @@
   "Processing": "در حال پردازش",
   "course-authoring.content-tags-drawer.empty": "برای استفاده از برچسب‌ها، لطفاً {link} یا با مدیر خود تماس بگیرید.",
   "course-authoring.content-tags-drawer.empty-link": "یک طبقه‌بندی را فعال کنید",
-  "course-authoring.course-outline.header-navigations.button.expand-all": "باز کردن همه"
+  "course-authoring.course-outline.header-navigations.button.expand-all": "باز کردن همه",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "باز کردن همه",
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "همه {numSelectedRows} انتخاب شده",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "پاک کردن انتخاب",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "انتخاب همه {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} انتخاب شده",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} انتخاب شده ({numSelectedRowsOnPage} نمایش داده شده در زیر)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "بستن همه",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "پاک کردن فیلترها",
+  "pgn.DataTable.RowStatus.statusText": "نمایش {pageSize} از {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "فیلترها",
+  "pgn.Dropzone.DefaultContent.fileSizeBetween": "بین {sizeMin} و {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMax": "حداکثر {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMin": "حداقل {sizeMin}",
+  "pgn.Dropzone.DefaultContent.fileTypeRestriction": "بارگذاری {count, plural, one {فایل‌های {firstPart}} other {فایل‌های {firstPart} یا {secondPart}}}",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "لغو",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "در حال بارگذاری {filename}."
 } 
