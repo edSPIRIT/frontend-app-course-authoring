@@ -68,3 +68,9 @@ div.xblock-highlight {
     }
   }
 }
+
+.segment--1 {
+  html[dir="rtl"] & {
+    left: 100% !important;
+  }
+}
